@@ -15,27 +15,27 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   List<Movie> movies = [
     Movie.fromMap({
-      'title': '사랑의 불시착',
-      'keyword': '사랑/로맨스/판타지',
-      'poster': 'test_movie_1.png',
+      'title': '나의 이사 이야기',
+      'keyword': '일본작품/가족영화/애니매이션 영화',
+      'poster': 'movie_1.png',
+      'like': true
+    }),
+    Movie.fromMap({
+      'title': '폭풍 수면! 꿈꾸는 세계 대돌격',
+      'keyword': '일본작품/가족영화/애니매이션 영화',
+      'poster': 'movie_2.png',
       'like': false
     }),
     Movie.fromMap({
-      'title': '사랑의 불시착',
-      'keyword': '사랑/로맨스/판타지',
-      'poster': 'test_movie_1.png',
+      'title': '엄청 맛있어! B급 음식 서바이벌',
+      'keyword': '일본작품/가족영화/애니매이션 영화',
+      'poster': 'movie_3.png',
       'like': false
     }),
     Movie.fromMap({
-      'title': '사랑의 불시착',
-      'keyword': '사랑/로맨스/판타지',
-      'poster': 'test_movie_1.png',
-      'like': false
-    }),
-    Movie.fromMap({
-      'title': '사랑의 불시착',
-      'keyword': '사랑/로맨스/판타지',
-      'poster': 'test_movie_1.png',
+      'title': '정면승부! 로봇 아빠의 역습',
+      'keyword': '일본작품/가족영화/애니매이션 영화',
+      'poster': 'movie_4.png',
       'like': false
     })
   ];
