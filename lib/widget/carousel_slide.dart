@@ -30,7 +30,8 @@ class _CarouselImageState extends State<CarouselImage> {
 
     movies = widget.movies;
 
-    images = movies?.map((e) => Image.asset('images/' + e.poster)).toList();
+    // images = movies?.map((e) => Image.asset('images/' + e.poster)).toList();
+    images = movies?.map((e) => Image.network(e.poster)).toList();
 
     keywords = movies?.map((e) => e.keyword).toList();
 

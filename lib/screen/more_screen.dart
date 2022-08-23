@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_linkify/flutter_linkify.dart';
 import 'package:url_launcher/link.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'package:url_launcher/url_launcher_string.dart';
 
 class MoreScreen extends StatelessWidget {
   const MoreScreen({Key? key}) : super(key: key);
@@ -42,8 +41,8 @@ class MoreScreen extends StatelessWidget {
             child: Linkify(
               text: "http://github.com/danbi-park",
               onOpen: ((link) async {
-                if (await canLaunchUrl(Uri.parse(link.url))) {
-                  await launchUrl(Uri.parse(link.url));
+                if (await canLaunch(link.url)) {
+                  await canLaunch(link.url);
                 }
               }),
               style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
