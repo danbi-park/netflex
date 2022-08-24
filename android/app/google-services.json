@@ -1,0 +1,84 @@
+{
+  "project_info": {
+    "project_number": "1035556304888",
+    "project_id": "netflex-d6a6c",
+    "storage_bucket": "netflex-d6a6c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1035556304888:android:596d242453f24b5ed9080d",
+        "android_client_info": {
+          "package_name": "com.example.clone_netflix"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1035556304888-aok9mrap90dt9bk12bejohd9o7m5rejv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfZbX__ssLMyLDs3-pluNwVG2nlc2pC1E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1035556304888-aok9mrap90dt9bk12bejohd9o7m5rejv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1035556304888-1hvmo013hctns7i7d4mten6iicuor5fm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.cloneNetflix",
+                "app_store_id": "7162099"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1035556304888:android:5f4e9cdc9a4e387ed9080d",
+        "android_client_info": {
+          "package_name": "com.maprex.mzconv.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1035556304888-aok9mrap90dt9bk12bejohd9o7m5rejv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfZbX__ssLMyLDs3-pluNwVG2nlc2pC1E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1035556304888-aok9mrap90dt9bk12bejohd9o7m5rejv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1035556304888-1hvmo013hctns7i7d4mten6iicuor5fm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.cloneNetflix",
+                "app_store_id": "7162099"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
